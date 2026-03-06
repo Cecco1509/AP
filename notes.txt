@@ -1,0 +1,11 @@
+Things to do
+
+- Define syntax (search it on google)
+- Search how to integrate ```mermaid blocks
+- Search how to implement the parser
+- Search how to translate each AST node into HTML element
+
+- Implement the lexer
+- Implement the parser
+    - Make it return JSON or HTML?
+    - Make a flag?
