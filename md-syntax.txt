@@ -1,0 +1,181 @@
+# Syntax
+
+# Headings:
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+Alternate H1
+============
+Alternate H2
+------------
+
+
+# Text Formatting:
+
+**bold**
+__also bold__
+
+*italic*
+_also italic_
+
+***bold and italic***
+
+~~strikethrough~~
+
+<u>underline</u> !!!! TO BE CHECKED
+
+normal^superscript^
+
+normal~subscript~
+
+
+# Blockquotes:
+> Single level quote
+>
+> Continued quote
+
+> Outer quote
+>> Nested quote
+>>> Double nested
+
+
+# Unordered Lists
+- Item A
+- Item B
+  - Nested B1
+  - Nested B2
+    - Deep nested
+* Also valid
++ Also valid
+
+
+# Ordered Lists
+1. First
+2. Second
+   1. Nested
+   2. Nested
+3. Third
+
+
+
+# Task List
+
+- [x] Completed task
+- [ ] Pending task
+- [ ] Another pending
+
+
+# Inline Code:
+
+Use `console.log()` to debug.
+
+# Code Block:
+
+```javascript
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+```
+
+# Indented block:
+
+    This is a code block
+    indented with spaces
+
+
+# Links:
+[Inline link](https://example.com)
+
+[With title](https://example.com "Hover tooltip")
+
+[Reference link][ref-id]
+[ref-id]: https://example.com
+
+<https://auto-linked.com>
+
+<email@example.com>
+
+
+# Images
+![Alt text](image.jpg)
+
+![With title](image.jpg "Tooltip")
+
+![Reference image][img-id]
+[img-id]: image.jpg "Optional title"
+
+
+
+Tables:
+| Left     | Center   | Right    |
+|:---------|:--------:|---------:|
+| cell     | cell     | cell     |
+| longer   | content  | here     |
+
+
+# Horizontal Rules
+---
+***
+___
+
+
+# Line breaks:
+Soft break (two trailing spaces):  
+Next line
+
+Hard break (blank line):
+
+New paragraph
+
+
+# Escape characters:
+
+\*not italic\*
+\# not a heading
+\[not a link\]
+\`not code\`
+
+
+# Html inline
+
+Text with <strong>raw HTML</strong> inline.
+
+<details>
+  <summary>Expandable section</summary>
+  Hidden content here.
+</details>
+
+
+BNF:
+
+IS := inline-string
+W  := word
+
+H ::= # IS | ## IS | ### IS | #### IS | ##### IS | ###### IS
+      IS\n============ | IS\n------------
+
+F ::= **IS** | __IS__ | ***IS*** | ~~IS~~ | <u>IS<u> | W^IS^ | W~IS~
+
+Q ::= > IS | > | NQ | DNQ
+NQ ::= >> IS
+DNQ ::= >>> IS
+
+'' used for make spaces noticable
+d  ::= - | + | *
+
+UL ::= d IS | '  d IS' | '    d IS' !!!! Non va bene -> ci possono essere infiniti nesting
+
+n ::= <num> numero naturale 0 .... inf
+OR ::= n. IS | '  n. IS'            !!!! Non va bene -> ci possono essere infiniti nesting
+
+# Ordered Lists
+1. First
+2. Second
+   1. Nested
+   2. Nested
+3. Third
+
