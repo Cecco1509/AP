@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "../include/lexer.hpp"
+#include "../include/token.hpp"
 
 const string OUTPUT_PATH = "output.json";
 
@@ -41,10 +42,10 @@ int main(int argc, char* argv[]) {
 
     // Call the Lexer
     Lexer lexer = Lexer(sourceFilePath);
-    vector<string> tokens = lexer.tokenize();
+    vector<Token> tokens = lexer.tokenize();
 
-    for (const string& token : tokens) {
-        printf("%s\n", token.c_str());
+    for (Token token : tokens) {
+        printf("%s\n", token.toString().c_str());
     }
 
     // Create the parser with the output file path

@@ -583,7 +583,30 @@ This is plain text with no special characters.
 
 ---
 
-## 25. Summary of Precedence and Disambiguation Rules
+## 25. Task list
+
+```bnf
+<task-list>      ::= <task-item>+
+<task-item>      ::= <ul-marker> <space>+ <checkbox> 
+                     <space> <inline>+ <newline>
+<checkbox>       ::= <unchecked> | <checked>
+<unchecked>      ::= "[" <space> "]"
+<checked>        ::= "[" ("x" | "X") "]"
+<ul-marker>      ::= "-" | "*" | "+"
+```
+
+**Example:**
+
+```markdown
+- [ ] Buy groceries
+- [x] Write the parser
+- [ ] Touch grass
+- [X] Capital X is also valid
+```
+
+---
+
+## 26. Summary of Precedence and Disambiguation Rules
 
 ```
 1. Blank lines separate blocks.

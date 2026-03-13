@@ -2,6 +2,7 @@
 
 #include <string>
 #include <vector>
+#include "token.hpp"
 
 using namespace std;
 
@@ -20,19 +21,27 @@ class Lexer {
             }
         }
 
-        vector<string> tokenize(){
-            vector<string> tokens = vector<string>();
+        vector<Token> tokenize() {
+            vector<Token> tokens = vector<Token>();
             tokens.reserve(INITIAL_CAPACITY);
 
-            
-            // Read the source file
             char buffer[256];
+            string currentToken = "";
             while (fgets(buffer, sizeof(buffer), sourceFile) != NULL) {
-                // Tokenize the line
-                char* token = strtok(buffer, " \t\n");
-                while (token != NULL) {
-                    tokens.push_back(string(token));
-                    token = strtok(NULL, " \t\n");
+
+                for (size_t i = 0; buffer[i] != '\0'; i++) {
+                    char currentChar = buffer[i];
+                    TokenType currentCharType = Token::getTypeFromChar(currentChar);
+
+                    if (currentCharType == TokenType::UNKNOWN) {
+                        currentToken += currentChar;
+                    } else {
+                        if (!currentToken.empty()) {
+                            tokens.push_back(Token(currentToken));
+                            currentToken = "";
+                        }
+                        tokens.push_back(Token(string(1, currentChar)));
+                    }
                 }
             }
 
