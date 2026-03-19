@@ -1,0 +1,168 @@
+=== TOKENS FOR data/test_lexer/11_autolinks_footnotes_definition.md ===
+T{3, #}
+T{0,  }
+T{4, Autolinks,}
+T{0,  }
+T{4, Footnotes,}
+T{0,  }
+T{4, Definition}
+T{0,  }
+T{4, List}
+T{2, 
+}
+T{2, 
+}
+T{4, https}
+T{14, :}
+T{4, //github}
+T{12, .}
+T{4, com}
+T{2, 
+}
+T{4, ftp}
+T{14, :}
+T{4, //example}
+T{12, .}
+T{4, com/resource}
+T{12, .}
+T{4, txt}
+T{2, 
+}
+T{4, www}
+T{12, .}
+T{4, example}
+T{12, .}
+T{4, dev}
+T{2, 
+}
+T{2, 
+}
+T{4, Here}
+T{0,  }
+T{4, is}
+T{0,  }
+T{4, a}
+T{0,  }
+T{4, sentence}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, a}
+T{0,  }
+T{4, footnote}
+T{12, .}
+T{15, [}
+T{4, ^note}
+T{7, -}
+T{11, 1}
+T{16, ]}
+T{2, 
+}
+T{4, Another}
+T{0,  }
+T{4, one}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, two}
+T{0,  }
+T{4, refs}
+T{12, .}
+T{15, [}
+T{4, ^note}
+T{7, -}
+T{11, 1}
+T{16, ]}
+T{0,  }
+T{4, and}
+T{0,  }
+T{15, [}
+T{4, ^note}
+T{7, -}
+T{11, 2}
+T{16, ]}
+T{2, 
+}
+T{2, 
+}
+T{15, [}
+T{4, ^note}
+T{7, -}
+T{11, 1}
+T{16, ]}
+T{14, :}
+T{0,  }
+T{4, First}
+T{0,  }
+T{4, footnote}
+T{0,  }
+T{4, definition}
+T{12, .}
+T{2, 
+}
+T{2, 
+}
+T{15, [}
+T{4, ^note}
+T{7, -}
+T{11, 2}
+T{16, ]}
+T{14, :}
+T{0,  }
+T{4, Second}
+T{0,  }
+T{4, footnote}
+T{0,  }
+T{4, definition}
+T{0,  }
+T{4, with}
+T{0,  }
+T{5, `}
+T{4, code}
+T{5, `}
+T{12, .}
+T{2, 
+}
+T{2, 
+}
+T{4, Term}
+T{0,  }
+T{11, 1}
+T{2, 
+}
+T{14, :}
+T{0,  }
+T{4, Definition}
+T{0,  }
+T{4, for}
+T{0,  }
+T{4, term}
+T{0,  }
+T{11, 1}
+T{2, 
+}
+T{2, 
+}
+T{4, Term}
+T{0,  }
+T{11, 2}
+T{2, 
+}
+T{14, :}
+T{0,  }
+T{4, Definition}
+T{0,  }
+T{4, line}
+T{0,  }
+T{11, 1}
+T{2, 
+}
+T{14, :}
+T{0,  }
+T{4, Definition}
+T{0,  }
+T{4, line}
+T{0,  }
+T{11, 2}
+T{2, 
+}

@@ -1,0 +1,81 @@
+=== TOKENS FOR data/test_lexer/04_blockquotes.md ===
+T{3, #}
+T{0,  }
+T{4, Blockquotes}
+T{2, 
+}
+T{2, 
+}
+T{21, >}
+T{0,  }
+T{4, Simple}
+T{0,  }
+T{4, quote}
+T{12, .}
+T{2, 
+}
+T{21, >}
+T{2, 
+}
+T{21, >}
+T{0,  }
+T{4, Multiline}
+T{0,  }
+T{4, quote}
+T{0,  }
+T{4, with}
+T{0,  }
+T{9, *}
+T{9, *}
+T{4, formatting}
+T{9, *}
+T{9, *}
+T{0,  }
+T{4, and}
+T{0,  }
+T{5, `}
+T{4, inline}
+T{0,  }
+T{4, code}
+T{5, `}
+T{12, .}
+T{2, 
+}
+T{21, >}
+T{2, 
+}
+T{21, >}
+T{0,  }
+T{21, >}
+T{0,  }
+T{4, Nested}
+T{0,  }
+T{4, quote}
+T{0,  }
+T{4, level}
+T{0,  }
+T{11, 2}
+T{12, .}
+T{2, 
+}
+T{21, >}
+T{0,  }
+T{21, >}
+T{2, 
+}
+T{21, >}
+T{0,  }
+T{21, >}
+T{0,  }
+T{21, >}
+T{0,  }
+T{4, Nested}
+T{0,  }
+T{4, quote}
+T{0,  }
+T{4, level}
+T{0,  }
+T{11, 3}
+T{12, .}
+T{2, 
+}

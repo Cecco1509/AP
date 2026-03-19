@@ -1,0 +1,74 @@
+=== TOKENS FOR data/test_lexer/10_html.md ===
+T{3, #}
+T{0,  }
+T{4, HTML}
+T{0,  }
+T{4, Blocks}
+T{0,  }
+T{4, And}
+T{0,  }
+T{4, Inline}
+T{0,  }
+T{4, HTML}
+T{2, 
+}
+T{2, 
+}
+T{20, <}
+T{4, div}
+T{0,  }
+T{4, class="box"}
+T{21, >}
+T{2, 
+}
+T{0,  }
+T{0,  }
+T{20, <}
+T{4, p}
+T{21, >}
+T{4, Inline}
+T{0,  }
+T{20, <}
+T{4, strong}
+T{21, >}
+T{4, HTML}
+T{20, <}
+T{4, /strong}
+T{21, >}
+T{0,  }
+T{4, inside}
+T{0,  }
+T{4, block}
+T{12, .}
+T{20, <}
+T{4, /p}
+T{21, >}
+T{2, 
+}
+T{20, <}
+T{4, /div}
+T{21, >}
+T{2, 
+}
+T{2, 
+}
+T{20, <}
+T{4, span}
+T{0,  }
+T{4, data}
+T{7, -}
+T{4, id="42"}
+T{21, >}
+T{4, inline}
+T{0,  }
+T{4, span}
+T{20, <}
+T{4, /span}
+T{21, >}
+T{0,  }
+T{4, in}
+T{0,  }
+T{4, paragraph}
+T{12, .}
+T{2, 
+}

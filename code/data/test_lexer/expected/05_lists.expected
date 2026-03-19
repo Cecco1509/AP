@@ -1,0 +1,212 @@
+=== TOKENS FOR data/test_lexer/05_lists.md ===
+T{3, #}
+T{0,  }
+T{4, Lists}
+T{2, 
+}
+T{2, 
+}
+T{7, -}
+T{0,  }
+T{4, Unordered}
+T{0,  }
+T{4, item}
+T{0,  }
+T{11, 1}
+T{2, 
+}
+T{7, -}
+T{0,  }
+T{4, Unordered}
+T{0,  }
+T{4, item}
+T{0,  }
+T{11, 2}
+T{2, 
+}
+T{0,  }
+T{0,  }
+T{7, -}
+T{0,  }
+T{4, Nested}
+T{0,  }
+T{4, unordered}
+T{0,  }
+T{4, item}
+T{2, 
+}
+T{0,  }
+T{0,  }
+T{0,  }
+T{0,  }
+T{7, -}
+T{0,  }
+T{4, Third}
+T{0,  }
+T{4, level}
+T{0,  }
+T{4, nested}
+T{0,  }
+T{4, item}
+T{2, 
+}
+T{2, 
+}
+T{9, *}
+T{0,  }
+T{4, Another}
+T{0,  }
+T{4, unordered}
+T{0,  }
+T{4, style}
+T{2, 
+}
+T{9, *}
+T{0,  }
+T{4, Item}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, paragraph}
+T{2, 
+}
+T{2, 
+}
+T{0,  }
+T{0,  }
+T{4, continuation}
+T{0,  }
+T{4, paragraph}
+T{0,  }
+T{4, under}
+T{0,  }
+T{4, same}
+T{0,  }
+T{4, list}
+T{0,  }
+T{4, item}
+T{2, 
+}
+T{2, 
+}
+T{7, -}
+T{0,  }
+T{4, Plus}
+T{0,  }
+T{4, marker}
+T{0,  }
+T{4, unordered}
+T{0,  }
+T{4, list}
+T{2, 
+}
+T{7, -}
+T{0,  }
+T{4, Another}
+T{0,  }
+T{4, plus}
+T{0,  }
+T{4, item}
+T{2, 
+}
+T{2, 
+}
+T{11, 1}
+T{12, .}
+T{0,  }
+T{4, Ordered}
+T{0,  }
+T{4, item}
+T{0,  }
+T{4, one}
+T{2, 
+}
+T{11, 2}
+T{12, .}
+T{0,  }
+T{4, Ordered}
+T{0,  }
+T{4, item}
+T{0,  }
+T{4, two}
+T{2, 
+}
+T{11, 3}
+T{12, .}
+T{0,  }
+T{4, Ordered}
+T{0,  }
+T{4, item}
+T{0,  }
+T{4, three}
+T{2, 
+}
+T{2, 
+}
+T{11, 4}
+T{12, .}
+T{0,  }
+T{4, Ordered}
+T{0,  }
+T{4, list}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, two}
+T{0,  }
+T{4, digits}
+T{2, 
+}
+T{11, 5}
+T{12, .}
+T{0,  }
+T{4, Next}
+T{0,  }
+T{4, item}
+T{2, 
+}
+T{2, 
+}
+T{7, -}
+T{0,  }
+T{15, [}
+T{0,  }
+T{16, ]}
+T{0,  }
+T{4, Task}
+T{0,  }
+T{4, list}
+T{0,  }
+T{4, unchecked}
+T{2, 
+}
+T{7, -}
+T{0,  }
+T{15, [}
+T{25, x}
+T{16, ]}
+T{0,  }
+T{4, Task}
+T{0,  }
+T{4, list}
+T{0,  }
+T{4, checked}
+T{0,  }
+T{4, lowercase}
+T{2, 
+}
+T{7, -}
+T{0,  }
+T{15, [}
+T{25, x}
+T{16, ]}
+T{0,  }
+T{4, Task}
+T{0,  }
+T{4, list}
+T{0,  }
+T{4, checked}
+T{0,  }
+T{4, uppercase}
+T{2, 
+}

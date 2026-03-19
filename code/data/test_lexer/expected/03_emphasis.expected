@@ -1,0 +1,89 @@
+=== TOKENS FOR data/test_lexer/03_emphasis.md ===
+T{3, #}
+T{0,  }
+T{4, Emphasis}
+T{2, 
+}
+T{2, 
+}
+T{8, _}
+T{4, italic}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, asterisks}
+T{8, _}
+T{2, 
+}
+T{8, _}
+T{4, italic}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, underscores}
+T{8, _}
+T{2, 
+}
+T{9, *}
+T{9, *}
+T{4, bold}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, double}
+T{0,  }
+T{4, asterisks}
+T{9, *}
+T{9, *}
+T{2, 
+}
+T{9, *}
+T{9, *}
+T{4, bold}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, double}
+T{0,  }
+T{4, underscores}
+T{9, *}
+T{9, *}
+T{2, 
+}
+T{9, *}
+T{9, *}
+T{8, _}
+T{4, bold}
+T{0,  }
+T{4, italic}
+T{0,  }
+T{4, combined}
+T{8, _}
+T{9, *}
+T{9, *}
+T{2, 
+}
+T{9, *}
+T{9, *}
+T{8, _}
+T{4, bold}
+T{0,  }
+T{4, italic}
+T{0,  }
+T{4, combined}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, underscores}
+T{8, _}
+T{9, *}
+T{9, *}
+T{2, 
+}
+T{6, ~}
+T{6, ~}
+T{4, strikethrough}
+T{6, ~}
+T{6, ~}
+T{2, 
+}

@@ -1,0 +1,174 @@
+=== TOKENS FOR data/test_lexer/06_code.md ===
+T{3, #}
+T{0,  }
+T{4, Code}
+T{2, 
+}
+T{2, 
+}
+T{4, Inline}
+T{0,  }
+T{4, code}
+T{14, :}
+T{0,  }
+T{5, `}
+T{4, printf}
+T{17, (}
+T{4, "hello"}
+T{18, )}
+T{24, ;}
+T{5, `}
+T{2, 
+}
+T{2, 
+}
+T{4, Inline}
+T{0,  }
+T{4, code}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, escaped}
+T{0,  }
+T{4, backtick}
+T{14, :}
+T{0,  }
+T{5, `}
+T{5, `}
+T{4, code}
+T{0,  }
+T{4, with}
+T{0,  }
+T{5, `}
+T{0,  }
+T{4, backtick}
+T{5, `}
+T{5, `}
+T{2, 
+}
+T{2, 
+}
+T{0,  }
+T{0,  }
+T{0,  }
+T{0,  }
+T{4, Indented}
+T{0,  }
+T{4, code}
+T{0,  }
+T{4, block}
+T{0,  }
+T{4, line}
+T{0,  }
+T{11, 1}
+T{2, 
+}
+T{0,  }
+T{0,  }
+T{0,  }
+T{0,  }
+T{4, Indented}
+T{0,  }
+T{4, code}
+T{0,  }
+T{4, block}
+T{0,  }
+T{4, line}
+T{0,  }
+T{11, 2}
+T{2, 
+}
+T{2, 
+}
+T{5, `}
+T{5, `}
+T{5, `}
+T{4, text}
+T{2, 
+}
+T{4, Fenced}
+T{0,  }
+T{4, code}
+T{0,  }
+T{4, block}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, backticks}
+T{2, 
+}
+T{4, line}
+T{0,  }
+T{11, 2}
+T{2, 
+}
+T{4, line}
+T{0,  }
+T{11, 3}
+T{0,  }
+T{3, #}
+T{0,  }
+T{4, not}
+T{0,  }
+T{4, a}
+T{0,  }
+T{4, heading}
+T{0,  }
+T{4, inside}
+T{0,  }
+T{4, code}
+T{2, 
+}
+T{5, `}
+T{5, `}
+T{5, `}
+T{2, 
+}
+T{2, 
+}
+T{5, `}
+T{5, `}
+T{5, `}
+T{4, cpp}
+T{2, 
+}
+T{4, //}
+T{0,  }
+T{4, Fenced}
+T{0,  }
+T{4, code}
+T{0,  }
+T{4, block}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, tildes}
+T{2, 
+}
+T{4, int}
+T{0,  }
+T{4, main}
+T{17, (}
+T{18, )}
+T{0,  }
+T{4, {}
+T{2, 
+}
+T{0,  }
+T{0,  }
+T{0,  }
+T{0,  }
+T{4, return}
+T{0,  }
+T{11, 0}
+T{24, ;}
+T{2, 
+}
+T{4, }}
+T{2, 
+}
+T{5, `}
+T{5, `}
+T{5, `}
+T{2, 
+}

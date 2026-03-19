@@ -1,0 +1,102 @@
+=== TOKENS FOR data/test_lexer/02_paragraphs_and_breaks.md ===
+T{3, #}
+T{0,  }
+T{4, Paragraphs}
+T{0,  }
+T{4, And}
+T{0,  }
+T{4, Line}
+T{0,  }
+T{4, Breaks}
+T{2, 
+}
+T{2, 
+}
+T{4, This}
+T{0,  }
+T{4, is}
+T{0,  }
+T{4, a}
+T{0,  }
+T{4, normal}
+T{0,  }
+T{4, paragraph}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, soft}
+T{2, 
+}
+T{4, line}
+T{0,  }
+T{4, wrapping}
+T{12, .}
+T{2, 
+}
+T{2, 
+}
+T{4, This}
+T{0,  }
+T{4, line}
+T{0,  }
+T{4, ends}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, two}
+T{0,  }
+T{4, spaces}
+T{12, .}
+T{0,  }
+T{0,  }
+T{2, 
+}
+T{4, This}
+T{0,  }
+T{4, should}
+T{0,  }
+T{4, be}
+T{0,  }
+T{4, a}
+T{0,  }
+T{4, hard}
+T{0,  }
+T{4, line}
+T{0,  }
+T{4, break}
+T{12, .}
+T{2, 
+}
+T{2, 
+}
+T{4, This}
+T{0,  }
+T{4, line}
+T{0,  }
+T{4, ends}
+T{0,  }
+T{4, with}
+T{0,  }
+T{4, a}
+T{0,  }
+T{4, backslash}
+T{12, .}
+T{19, \}
+T{2, 
+}
+T{4, This}
+T{0,  }
+T{4, should}
+T{0,  }
+T{4, also}
+T{0,  }
+T{4, be}
+T{0,  }
+T{4, a}
+T{0,  }
+T{4, hard}
+T{0,  }
+T{4, break}
+T{12, .}
+T{2, 
+}
