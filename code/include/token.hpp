@@ -35,6 +35,8 @@ enum class TokenType {
     SEMICOLON, // ;
     x, // x
     X, // X
+    QUESTIONMARK, // ?
+    DOLLAR, // $
     UNKNOWN // Error token, should never be returned by the lexer
 };
 
@@ -132,6 +134,10 @@ public:
             return TokenType::x;
         case 'X':
             return TokenType::X;
+        case '?':
+            return TokenType::QUESTIONMARK;
+        case '$':
+            return TokenType::DOLLAR;
         default:
             return TokenType::UNKNOWN;
         }

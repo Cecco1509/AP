@@ -16,7 +16,7 @@ class Lexer {
         Lexer(const string& source){
             sourceFile = fopen(source.c_str(), "r");
             if (sourceFile == NULL) {
-                perror("Error opening source file");
+                perror(string("Error opening source file: " + source).c_str());
                 exit(EXIT_FAILURE);
             }
         }
@@ -26,19 +26,32 @@ class Lexer {
             tokens.reserve(INITIAL_CAPACITY);
 
             char buffer[256];
-            string currentToken = "";
+            string currentWord = "";
             while (fgets(buffer, sizeof(buffer), sourceFile) != NULL) {
 
                 for (size_t i = 0; buffer[i] != '\0'; i++) {
                     char currentChar = buffer[i];
                     TokenType currentCharType = Token::getTypeFromChar(currentChar);
 
+                    // Special handling for 'x' and 'X' to avoid treating them as WORD tokens
+                    if (currentCharType == TokenType::x || currentCharType == TokenType::X) {
+                        
+                        if (tokens.size() > 0 && tokens.at(tokens.size() - 1).getType() == TokenType::SQUAREBRACKETCLOSE) {
+                            tokens.push_back(Token(string(1, currentChar)));
+                            continue;
+                        }
+
+                        currentWord += currentChar;
+                        continue;
+                    }
+
+
                     if (currentCharType == TokenType::UNKNOWN) {
-                        currentToken += currentChar;
+                        currentWord += currentChar;
                     } else {
-                        if (!currentToken.empty()) {
-                            tokens.push_back(Token(currentToken));
-                            currentToken = "";
+                        if (!currentWord.empty()) {
+                            tokens.push_back(Token(currentWord));
+                            currentWord = "";
                         }
                         tokens.push_back(Token(string(1, currentChar)));
                     }
